@@ -9,13 +9,6 @@ COVID-Next features an architecture that builds upon Efficientnet architecture, 
 To install all requirements, simply run `pip3 install -r requirements.txt`.
 Code was tested with Python 3.7.
 
-
-## Training
-
-Training configuration is currently modified through the `config.py` module. Check it out before starting training.
-
-`python3 train.py` command will run model training.
-
 ### Dataset
 
 We have created a script that automates the dataset generation from the two sources referenced in the original repo. To generate the dataset, follow these steps:
@@ -27,6 +20,13 @@ We have created a script that automates the dataset generation from the two sour
 
 The script will create a new folder with `train` and `test` subfolders where images are located, along with the two metadata files for both train and test subsets.
 
+
+
+## Training
+
+Training configuration is currently modified through the `config.py` module. Check it out before starting training.
+
+`python3 train.py` command will run model training.
 
 
 ## Results
