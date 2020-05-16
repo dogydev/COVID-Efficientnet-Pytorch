@@ -2,8 +2,6 @@ import torch
 from torch import nn
 from torchvision import models
 from .efficientnet import EfficientNet
-from .layers import Trainable, ConvBn2d
-
 
 class COVIDNext50(nn.Module):
     def __init__(self, n_classes):
