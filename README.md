@@ -36,7 +36,7 @@ The following results were obtained on the dataset used in the original repo as 
 |:-----------------:|:--------:|
 | COVID-Net (Large) | 91.90%   |
 | COVID-Next    | 94.76%   |
-| **COVID-Efficientnet**    | 96.01%   |
+| **COVID-Efficientnet**    | **96.01%**   |
 
 ### Minimal prediction example
 
