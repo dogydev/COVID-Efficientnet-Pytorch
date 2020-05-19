@@ -70,7 +70,7 @@ def validate(data_loader, model, best_score, global_step, cfg):
     log.info("VALIDATION | Accuracy {:.4f} | F1 {:.4f} | Precision {:.4f} | "
              "Recall {:.4f}".format(acc, f1, prec, rec))
 
-    if f1 > best_score:
+    if acc > best_score:
         save_config = {
                     'name': config.name,
                     'save_dir': config.ckpts_dir,
@@ -78,7 +78,7 @@ def validate(data_loader, model, best_score, global_step, cfg):
                     'clf_report': report
                 }
         save_model(model=model, config=save_config)
-        best_score = f1
+        best_score = acc
     log.info("Validation end")
 
     model.train()
