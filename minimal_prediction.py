@@ -22,7 +22,7 @@ model.eval()
 
 transforms = val_transforms(width=config.width, height=config.height)
 
-image_dir = "assets"
+image_dir = "assets/"
 images = os.listdir(image_dir)
 
 for image in images:
