@@ -32,7 +32,7 @@ Training configuration is currently modified through the `config.py` module. Che
 ## Results
 
 The following results were obtained on the dataset used in the original repo as of May 19 2020.
-|                   | Accuracy |
+| Model                  | Accuracy |
 |:-----------------:|:--------:|
 | COVID-Net (Large) | 91.90%   |
 | COVID-Next    | 94.76%   |
