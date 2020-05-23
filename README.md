@@ -38,6 +38,11 @@ The following results were obtained on the dataset used in the original repo as 
 | COVID-Next    | 94.76%   |
 | **COVID-Efficientnet**    | **96.01%**   |
 
+### Pretrained Weights
+
+Pretrained weights are available at [weights](https://drive.google.com/open?id=1-uCQr7gcPUj2szKrDK1tSfv1BNj8XBHM)
+
+
 ### Minimal prediction example
 
 You can find the minimal prediction example in `minimal_prediction.py`.
